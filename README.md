@@ -19,7 +19,7 @@ Currently the following data types are available. More to come soon (or on [requ
 ## How to use Kirby JSON-LD
 1. Download the plugin and put in your Kirby plugin directory (e.g. `site/plugins/`)
 2. Add your global publisher info to the Kirby config file (`site/config/config.php`) [recommended]
-```
+```php
 'chrfickinger.jsonld-for-kirby' => [
     'publisher' => [
     'type' => 'Organization/Person',
