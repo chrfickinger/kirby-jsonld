@@ -4,7 +4,7 @@
 
 > Advanced SEO for structured data
 
-Kirby JSON-LD is a plugin for structured data to help organizing and connecting microdata based on the JSON Linked Data format ([JSON-LD](https://json-ld.org/)).
+Kirby JSON-LD is a advanced SEO plugin for structured data to organize and connect microdata based on JSON Linked Data format ([JSON-LD](https://json-ld.org/)).
 
 ![Screenshot](screenshot.png "Blueprint example of data type NewsArticle")
 
