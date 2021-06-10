@@ -1,0 +1,14 @@
+---
+name: jsonld.label.question-answer
+icon: box
+fields:
+  question:
+    label: jsonld.label.question
+    type: text
+    required: true
+    placeholder: jsonld.placeholder.question
+  answer:
+    extends: jsonld/writer
+    label: jsonld.label.answer
+    required: true
+    placeholder: jsonld.placeholder.answer

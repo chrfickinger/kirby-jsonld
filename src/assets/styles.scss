@@ -1,0 +1,122 @@
+// Global
+div.k-field-name-jsonld {
+    div.k-blocks {
+        background: var(--color-background);
+
+        div.k-block-container-type-jsonld_newsarticle,
+        div.k-block-container-type-jsonld_faqpage {
+            padding: 0;
+            margin: 0.5em 0;
+            border-radius: .6rem;
+
+            div.k-block-jsonld {
+                background: #e1f5fe;
+                border-radius: .6rem;
+        
+                .jsonld-type {
+                    display: grid;
+                    grid-column: 2;
+                    grid-template-columns: 50% 50%;
+                    font-size: .9rem;
+                    font-weight: bold;
+                    line-height: 1.2em;
+                    padding: .5rem .75rem;
+
+                    span.jsonld-name {
+                        float: left;
+                        padding-right: .5em;
+
+                        svg {
+                            float: left;
+                            padding-right: .3em;
+                        }
+                    }
+
+                    a {
+                        font-weight: normal;
+                        color: #1a73e8;
+                        font-style: italic;
+        
+                        svg {
+                            height: 1rem;
+                            width: 1rem;
+                            padding-right: .3em;
+                            fill: #1a73e8;
+                        }
+
+                        &.testurl {
+                             float: right;
+
+                            svg {
+                                float: left;
+                            }
+                        }
+                    }
+                }
+                .jsonld-preview {
+                    padding:.5rem .75rem;
+                    font-size: .9rem;
+                    background: #ffffff;
+                    border-bottom-left-radius: .6rem;
+                    border-bottom-right-radius: .6rem;
+                    box-shadow: 0 1px 6px -1px rgba(0,0,0,0.3);
+                }
+            }
+        }
+        .ishidden {
+            strong, div {
+                opacity: .15;
+            }
+        }
+    }
+}
+
+// NewsArticle
+div.k-block-container-type-jsonld_newsarticle {
+    div.k-block-jsonld {
+        .jsonld-preview {
+            .jsonld-headline {
+                color: #1a73e8;
+                font-size: 1.1rem;
+            }
+
+            .jsonld-content {
+                display: grid;
+                grid-gap: 10px;
+
+                .jsonld-text {
+                    .jsonld-date {
+                        color: #959595;
+                        padding-top: .6rem;
+                    }
+                    .jsonld-desciption {
+                        color: #202124;      
+                    }
+                }
+                .jsonld-image {
+                    grid-column: 2;
+                    img {
+                        float: right;
+                        max-height: 80px;
+                        max-width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// FAQPage
+div.k-block-container-type-jsonld_faqpage {
+    div.k-block-jsonld {
+        .jsonld-preview {
+            div.item {
+                padding: .5em;
+
+                + div.item {
+                    border-top: 1px dashed var(--color-border);
+                }
+            }
+        }
+    }
+}

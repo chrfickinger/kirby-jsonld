@@ -1,0 +1,4 @@
+---
+label: jsonld.label.text
+type: writer
+required: true

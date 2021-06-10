@@ -1,0 +1,6 @@
+---
+label: jsonld.label.headline
+type: text
+counter: true
+placeholder: '{{page.title}}'
+required: true

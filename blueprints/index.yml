@@ -1,0 +1,7 @@
+---
+label: jsonld.label.structureddata
+type: blocks
+fieldsets:
+  - jsonld_newsarticle
+  - jsonld_faqpage
+help: jsonld.help.structureddata

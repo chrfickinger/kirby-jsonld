@@ -1,0 +1,11 @@
+---
+label: jsonld.label.image
+type: files
+required: true
+query: page.images.filterBy('template', 'jsonld')
+accept:
+  mime: image/*
+max: 1
+uploads:
+  template: jsonld
+layout: list

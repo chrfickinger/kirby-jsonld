@@ -1,0 +1,7 @@
+---
+label: jsonld.label.description
+type: textarea
+size: small
+maxlength: 150
+buttons: false
+required: true

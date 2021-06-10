@@ -1,0 +1,7 @@
+---
+label: jsonld.label.publishdate
+type: date
+time: true
+width: 1/2
+default: now
+required: true

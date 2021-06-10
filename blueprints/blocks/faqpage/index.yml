@@ -1,0 +1,12 @@
+---
+name: jsonld.type.faqpage
+icon: question
+tabs:
+  content:
+    label: jsonld.label.content
+    fields:
+      blocks:
+        label: jsonld.label.question-answer
+        type: blocks
+        fieldsets:
+          - jsonld_faqpage_item

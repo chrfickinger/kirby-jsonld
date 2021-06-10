@@ -1,0 +1,6 @@
+---
+label: jsonld.label.author
+type: users
+multiple: false
+width: 1/2
+required: true

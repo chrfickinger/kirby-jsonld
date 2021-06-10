@@ -1,0 +1,20 @@
+---
+name: jsonld.type.newsarticle
+icon: page
+tabs:
+  content:
+    label: jsonld.label.content
+    fields:
+      headline:
+        extends: jsonld/headline
+      description:
+        extends: jsonld/description
+      datepublished:
+        extends: jsonld/date
+      author:
+        extends: jsonld/author
+      image:
+        extends: jsonld/file
+      testurl:
+        type: hidden
+        default: '{{page.url}}'

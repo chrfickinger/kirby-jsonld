@@ -1,0 +1,98 @@
+div.k-field-name-jsonld div.k-blocks {
+  background: var(--color-background);
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage {
+  padding: 0;
+  margin: 0.5em 0;
+  border-radius: 0.6rem;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld {
+  background: #e1f5fe;
+  border-radius: 0.6rem;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 50% 50%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  padding: 0.5rem 0.75rem;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type span.jsonld-name,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type span.jsonld-name {
+  float: left;
+  padding-right: 0.5em;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type span.jsonld-name svg,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type span.jsonld-name svg {
+  float: left;
+  padding-right: 0.3em;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type a,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type a {
+  font-weight: normal;
+  color: #1a73e8;
+  font-style: italic;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type a svg,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type a svg {
+  height: 1rem;
+  width: 1rem;
+  padding-right: 0.3em;
+  fill: #1a73e8;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type a.testurl,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type a.testurl {
+  float: right;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-type a.testurl svg,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-type a.testurl svg {
+  float: left;
+}
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview,
+div.k-field-name-jsonld div.k-blocks div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-preview {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  background: #ffffff;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  box-shadow: 0 1px 6px -1px rgba(0, 0, 0, 0.3);
+}
+div.k-field-name-jsonld div.k-blocks .ishidden strong, div.k-field-name-jsonld div.k-blocks .ishidden div {
+  opacity: 0.15;
+}
+
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-headline {
+  color: #1a73e8;
+  font-size: 1.1rem;
+}
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-content {
+  display: grid;
+  grid-gap: 10px;
+}
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-content .jsonld-text .jsonld-date {
+  color: #959595;
+  padding-top: 0.6rem;
+}
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-content .jsonld-text .jsonld-desciption {
+  color: #202124;
+}
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-content .jsonld-image {
+  grid-column: 2;
+}
+div.k-block-container-type-jsonld_newsarticle div.k-block-jsonld .jsonld-preview .jsonld-content .jsonld-image img {
+  float: right;
+  max-height: 80px;
+  max-width: 200px;
+}
+
+div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-preview div.item {
+  padding: 0.5em;
+}
+div.k-block-container-type-jsonld_faqpage div.k-block-jsonld .jsonld-preview div.item + div.item {
+  border-top: 1px dashed var(--color-border);
+}
