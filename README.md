@@ -1,3 +1,5 @@
+![GitHub release](https://img.shields.io/github/v/release/chrfickinger/kirby-jsonld.svg) ![License](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 # Kirby JSON-LD
 
 > Advanced SEO for structured data
