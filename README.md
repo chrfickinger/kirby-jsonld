@@ -7,15 +7,12 @@ Kirby JSON-LD is a plugin for structured data to help organizing and connecting 
 ![Screenshot](screenshot.png "Blueprint example of data type NewsArticle")
 
 *Blueprint example of data type NewsArticle*
-****
 
 ## Data types
-Currently the following data types are available. More to come soon (or on [request](https://github.com/chrfickiger/kirby-jsonld/issues)).
+Currently the following data types are available. More to come soon (or on [request](https://github.com/chrfickinger/kirby-jsonld/issues)).
 
 - [NewsArticle](#NewsArticle)
 - [FAQPage](#FAQPage)
-
-****
 
 ## How to use Kirby JSON-LD
 1. Download the plugin and put in your Kirby plugin directory (e.g. `site/plugins/`)
@@ -104,8 +101,6 @@ Use this type, if your page contains a list of questions and answers pertaining 
 
 ## License
 This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, please consider [making a donation of your choice](https://paypal.me/chrfickinger) or purchasing your license(s) through [my affiliate link]().
-
-****
 
 ## Credits
 
