@@ -4,7 +4,7 @@
 
 Kirby JSON-LD is a plugin for structured data to help organizing and connecting microdata based on the JSON Linked Data format ([JSON-LD](https://json-ld.org/)).
 
-![](jsonldforkirby.png)
+![Screenshot](screenshot.png "Blueprint example of data type NewsArticle")
 
 *Blueprint example of data type NewsArticle*
 ****
