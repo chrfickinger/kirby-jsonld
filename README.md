@@ -15,6 +15,8 @@ Currently the following data types are available. More to come soon (or on [requ
 
 - [NewsArticle](#NewsArticle)
 - [FAQPage](#FAQPage)
+- Event (in progress)
+- QAPage (in progress)
 
 ## How to use Kirby JSON-LD
 1. Download the plugin and put in your Kirby plugin directory (e.g. `site/plugins/`)
