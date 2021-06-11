@@ -38,7 +38,7 @@ jsonld:
 <?php snippet('jsonld'); ?>
 ```
 
-****
+
 ## Collection of types
 
 ### NewsArticle
@@ -99,10 +99,8 @@ Use this type, if your page contains a list of questions and answers pertaining 
 ```
 *More information about the data type [FAQPage](https://developers.google.com/search/docs/data-types/faqpage).*
 
-****
-
 ## License
-This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, please consider [making a donation of your choice](https://paypal.me/chrfickinger) or purchasing your license(s) through [my affiliate link]().
+This plugin is completely free and published under the MIT license. However, if you are using it in a commercial project and want to help me keep up with maintenance, please consider [making a donation of your choice](https://paypal.me/chrfickinger).
 
 ## Credits
 
